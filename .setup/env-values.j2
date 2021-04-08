@@ -31,6 +31,6 @@ loki:
         paths:
         - /loki(/|$)(.*)
     tls:
-      - secretName: loki-prod-tls
+      - secretName: loki-tls
         hosts:
           - {{ fqdn }}
